@@ -1,0 +1,245 @@
+[
+  {
+    "id": 1,
+    "title": "Equipment Allocation Policy",
+    "departement": "Engineering",
+    "allowed_roles": [
+      "Employee",
+      "Manager",
+      "Executive"
+    ],
+    "content": "All employees are entitled to a company-issued laptop with a minimum specification of 16GB RAM and a 512GB SSD, valued at $1,800 per unit. Managers may authorize up to two additional peripherals per team member, capped at $500 total. Equipment must be returned within 14 days of separation, or a replacement fee of $1,200 will be deducted from the final paycheck.",
+    "test_query": "What is the replacement fee for not returning company equipment?",
+    "expected_answer": "$1,200"
+  },
+  {
+    "id": 2,
+    "title": "Remote Work Policy",
+    "departement": "Operations",
+    "allowed_roles": [
+      "Employee",
+      "Manager",
+      "Executive"
+    ],
+    "content": "Employees may work remotely up to 3 days per week, provided they maintain a minimum productivity score of 85% as measured by the internal tracking system. Those granted full-time remote status must have a dedicated workspace with high-speed internet of at least 100 Mbps. Managers must review remote work eligibility quarterly and can revoke privileges if performance drops below 75%.",
+    "test_query": "How many days per week can an employee work remotely?",
+    "expected_answer": "3 days"
+  },
+  {
+    "id": 3,
+    "title": "Office Security Rules",
+    "departement": "Operations",
+    "allowed_roles": [
+      "Employee",
+      "Manager",
+      "Executive"
+    ],
+    "content": "All office entrances require badge access with a 4-digit PIN, and security cameras cover 100% of common areas with a retention period of 90 days. Visitors must be escorted at all times and registered at the front desk within 5 minutes of arrival. Sensitive documents must be stored in locked cabinets rated at least Level 3 security.",
+    "test_query": "What is the security camera retention period?",
+    "expected_answer": "90 days"
+  },
+  {
+    "id": 4,
+    "title": "IT Usage Guidelines",
+    "departement": "Engineering",
+    "allowed_roles": [
+      "Employee",
+      "Manager",
+      "Executive"
+    ],
+    "content": "All company devices must have antivirus software updated to the latest version, with full-disk scans scheduled weekly. Employees are prohibited from installing unauthorized software, with violations resulting in a $250 fine per occurrence. Cloud storage usage is capped at 50GB per employee, and any exceedance requires written approval from a Manager.",
+    "test_query": "What is the fine for installing unauthorized software?",
+    "expected_answer": "$250 per occurrence"
+  },
+  {
+    "id": 5,
+    "title": "General Code of Conduct",
+    "departement": "HR",
+    "allowed_roles": [
+      "Employee",
+      "Manager",
+      "Executive"
+    ],
+    "content": "All staff must complete a mandatory ethics training of 8 hours annually, with a passing score of at least 90%. Harassment complaints must be filed within 30 days of the incident and will be investigated by an independent committee within 15 business days. Violations can result in disciplinary action up to and including termination.",
+    "test_query": "What is the passing score for the mandatory ethics training?",
+    "expected_answer": "90%"
+  },
+  {
+    "id": 6,
+    "title": "Leave Policy",
+    "departement": "HR",
+    "allowed_roles": [
+      "Employee",
+      "Manager",
+      "Executive"
+    ],
+    "content": "Full-time employees receive 20 days of paid leave per year, with a maximum consecutive leave of 10 days without executive approval. Sick leave is capped at 12 days annually and requires a medical certificate after 3 consecutive days. Leave requests must be submitted at least 5 business days in advance through the HR portal.",
+    "test_query": "How many days of paid leave does a full-time employee receive annually?",
+    "expected_answer": "20 days"
+  },
+  {
+    "id": 7,
+    "title": "Software Licensing Rules",
+    "departement": "Engineering",
+    "allowed_roles": [
+      "Employee",
+      "Manager",
+      "Executive"
+    ],
+    "content": "The company maintains an enterprise license for all major development tools, with a total annual budget of $450,000. Individual add-on licenses require Manager approval and cannot exceed $1,500 per user per year. Unused licenses must be reported quarterly, and any license unused for 90 days will be automatically reclaimed.",
+    "test_query": "What is the total annual budget for enterprise software licenses?",
+    "expected_answer": "$450,000"
+  },
+  {
+    "id": 8,
+    "title": "Office Hours Policy",
+    "departement": "Operations",
+    "allowed_roles": [
+      "Employee",
+      "Manager",
+      "Executive"
+    ],
+    "content": "Core working hours are from 9:00 AM to 5:00 PM, Monday through Friday, with a mandatory 1-hour lunch break. Employees must be available for meetings during core hours, with no more than 2 hours of flexibility allowed for start and end times. overtime beyond 40 hours per week requires prior written approval from a Manager.",
+    "test_query": "How many hours of flexibility are allowed for start and end times?",
+    "expected_answer": "2 hours"
+  },
+  {
+    "id": 9,
+    "title": "Q3 Team Budget Allocation",
+    "departement": "Finance",
+    "allowed_roles": [
+      "Manager",
+      "Executive"
+    ],
+    "content": "Each team receives a quarterly operating budget of $75,000, with a total departmental cap of $600,000 for Q3. Manager-level budgets can be reallocated across categories but require Executive sign-off for any single reallocation exceeding $15,000. Unspent funds at the end of Q3 will be reduced by 20% in the next quarter's allocation.",
+    "test_query": "What is the total departmental budget cap for Q3?",
+    "expected_answer": "$600,000"
+  },
+  {
+    "id": 10,
+    "title": "Annual Performance Evaluation Criteria",
+    "departement": "HR",
+    "allowed_roles": [
+      "Manager",
+      "Executive"
+    ],
+    "content": "Performance evaluations are scored on a 100-point scale across 5 categories: productivity (30 points), collaboration (20 points), innovation (20 points), reliability (15 points), and leadership (15 points). A score of 75 or above qualifies for a performance bonus of up to $5,000. Managers must complete all evaluations by December 15, and results are reviewed by Executives within 10 business days.",
+    "test_query": "What minimum score qualifies an employee for a performance bonus?",
+    "expected_answer": "75"
+  },
+  {
+    "id": 11,
+    "title": "Promotion Review Process",
+    "departement": "HR",
+    "allowed_roles": [
+      "Manager",
+      "Executive"
+    ],
+    "content": "Promotions require a minimum of 2 years of tenure and a performance score of at least 85 in the last two consecutive evaluations. Managers submit promotion recommendations, which are then reviewed by at least one Executive and the HR director. Promotion decisions must be finalized within 45 days of the recommendation submission.",
+    "test_query": "What is the minimum tenure required for promotion eligibility?",
+    "expected_answer": "2 years"
+  },
+  {
+    "id": 12,
+    "title": "Department Hiring Budget",
+    "departement": "Finance",
+    "allowed_roles": [
+      "Manager",
+      "Executive"
+    ],
+    "content": "Each department is allocated a hiring budget of $200,000 per fiscal year, covering recruitment fees, background checks, and signing bonuses. A single hire cannot exceed $25,000 in total recruiting costs, including agency fees capped at 20% of annual salary. Managers must submit hiring plans by January 31, and any over-budget hiring requires Executive approval.",
+    "test_query": "What is the maximum total recruiting cost for a single hire?",
+    "expected_answer": "$25,000"
+  },
+  {
+    "id": 13,
+    "title": "Manager Bonus Structure",
+    "departement": "Finance",
+    "allowed_roles": [
+      "Manager",
+      "Executive"
+    ],
+    "content": "Managers receive an annual bonus calculated as 10% of their base salary if their team meets at least 80% of its KPIs. Teams exceeding 95% KPI achievement receive a bonus of 15% of base salary. The total bonus pool for all managers is capped at $350,000 per year.",
+    "test_query": "What percentage of base salary is the bonus if a manager's team meets 80% of KPIs?",
+    "expected_answer": "10%"
+  },
+  {
+    "id": 14,
+    "title": "Engineering Team Performance Metrics",
+    "departement": "Engineering",
+    "allowed_roles": [
+      "Manager",
+      "Executive"
+    ],
+    "content": "Engineering teams are evaluated on 4 KPIs: code deployment frequency (target: 5 deployments per week), bug resolution time (target: under 48 hours), test coverage (target: minimum 85%), and sprint velocity (target: 90 story points per sprint). Managers must review metrics bi-weekly and present findings to Executives monthly. Teams falling below 70% of targets for two consecutive months enter a performance improvement plan lasting 60 days.",
+    "test_query": "What is the target sprint velocity for engineering teams?",
+    "expected_answer": "90 story points per sprint"
+  },
+  {
+    "id": 15,
+    "title": "Cross-Team Resource Allocation",
+    "departement": "Operations",
+    "allowed_roles": [
+      "Manager",
+      "Executive"
+    ],
+    "content": "Shared resources such as DevOps and QA staff are distributed across teams based on project demand, with a total pool of 25 FTEs. Managers may request resource reallocations of up to 5 FTEs without Executive approval, but changes beyond that require a formal proposal submitted 30 days in advance. Resource utilization must be at least 70% across all teams, and any underutilization will trigger a review by the Operations Executive.",
+    "test_query": "What is the minimum resource utilization rate required across all teams?",
+    "expected_answer": "70%"
+  },
+  {
+    "id": 16,
+    "title": "Confidential Acquisition Target Details",
+    "departement": "Finance",
+    "allowed_roles": [
+      "Executive"
+    ],
+    "content": "The company is pursuing an acquisition of a mid-size SaaS firm with an estimated enterprise value of $120 million, currently in the due diligence phase. The acquisition target has annual revenues of $18 million and a client base of 350 enterprise accounts. Only the CFO and CEO have access to the full due diligence report, and all related communications must be handled under a Level 4 confidentiality agreement.",
+    "test_query": "What is the estimated enterprise value of the acquisition target?",
+    "expected_answer": "$120 million"
+  },
+  {
+    "id": 17,
+    "title": "Executive Compensation Package",
+    "departement": "HR",
+    "allowed_roles": [
+      "Executive"
+    ],
+    "content": "C-suite executives receive a base salary of $350,000 with an annual bonus of up to 25% of base salary tied to company-wide revenue targets. Stock options are granted in tranches over 4 years with a 1-year cliff, totaling 15,000 shares per executive. The total compensation package is reviewed annually by an independent compensation committee and must remain within the SEC-reported executive pay cap of $1,500,000.",
+    "test_query": "How many shares are granted per executive in stock options?",
+    "expected_answer": "15,000 shares"
+  },
+  {
+    "id": 18,
+    "title": "Strategic Audit Findings",
+    "departement": "Operations",
+    "allowed_roles": [
+      "Executive"
+    ],
+    "content": "The Q2 strategic audit identified 3 critical risk areas: supply chain dependency (risk score 8.2 out of 10), data governance gaps (risk score 7.5), and vendor concentration (risk score 6.8). A remediation plan must be submitted to the Board of Directors within 60 days. The audit was conducted by an external firm at a cost of $280,000 and covered all 12 operational divisions.",
+    "test_query": "What is the risk score for supply chain dependency?",
+    "expected_answer": "8.2 out of 10"
+  },
+  {
+    "id": 19,
+    "title": "Market Acquisition Valuation",
+    "departement": "Finance",
+    "allowed_roles": [
+      "Executive"
+    ],
+    "content": "The valuation team has completed an independent assessment of a potential acquisition in the fintech space, valuing the target at $85 million based on a 9x EBITDA multiple. The target company holds $12 million in cash reserves and has a debt-to-equity ratio of 0.3. Executive-level approval is required to proceed beyond the preliminary offer stage, and the final deal structure must be approved by the Board before any public disclosure.",
+    "test_query": "What EBITDA multiple was used to value the fintech acquisition target?",
+    "expected_answer": "9x EBITDA"
+  },
+  {
+    "id": 20,
+    "title": "CEO Compensation Review",
+    "departement": "HR",
+    "allowed_roles": [
+      "Executive"
+    ],
+    "content": "The CEO's total compensation for the current fiscal year is capped at $1,500,000, comprising a base salary of $450,000, a performance bonus of up to 30% of base salary, and long-term incentive shares valued at $700,000. An independent advisory firm reviews the compensation package annually and reports to the Compensation Committee within 45 days of the fiscal year-end. Any proposed increases exceeding 5% year-over-year require full Board ratification.",
+    "test_query": "What is the maximum percentage increase in CEO compensation that requires full Board ratification?",
+    "expected_answer": "5% year-over-year"
+  }
+]
