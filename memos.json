@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Equipment Allocation Policy",
-    "departement": "Engineering",
+    "department": "Engineering",
     "allowed_roles": [
       "Employee",
       "Manager",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "title": "Remote Work Policy",
-    "departement": "Operations",
+    "department": "Operations",
     "allowed_roles": [
       "Employee",
       "Manager",
@@ -28,7 +28,7 @@
   {
     "id": 3,
     "title": "Office Security Rules",
-    "departement": "Operations",
+    "department": "Operations",
     "allowed_roles": [
       "Employee",
       "Manager",
@@ -41,7 +41,7 @@
   {
     "id": 4,
     "title": "IT Usage Guidelines",
-    "departement": "Engineering",
+    "department": "Engineering",
     "allowed_roles": [
       "Employee",
       "Manager",
@@ -54,7 +54,7 @@
   {
     "id": 5,
     "title": "General Code of Conduct",
-    "departement": "HR",
+    "department": "HR",
     "allowed_roles": [
       "Employee",
       "Manager",
@@ -67,7 +67,7 @@
   {
     "id": 6,
     "title": "Leave Policy",
-    "departement": "HR",
+    "department": "HR",
     "allowed_roles": [
       "Employee",
       "Manager",
@@ -80,7 +80,7 @@
   {
     "id": 7,
     "title": "Software Licensing Rules",
-    "departement": "Engineering",
+    "department": "Engineering",
     "allowed_roles": [
       "Employee",
       "Manager",
@@ -93,7 +93,7 @@
   {
     "id": 8,
     "title": "Office Hours Policy",
-    "departement": "Operations",
+    "department": "Operations",
     "allowed_roles": [
       "Employee",
       "Manager",
@@ -106,7 +106,7 @@
   {
     "id": 9,
     "title": "Q3 Team Budget Allocation",
-    "departement": "Finance",
+    "department": "Finance",
     "allowed_roles": [
       "Manager",
       "Executive"
@@ -118,7 +118,7 @@
   {
     "id": 10,
     "title": "Annual Performance Evaluation Criteria",
-    "departement": "HR",
+    "department": "HR",
     "allowed_roles": [
       "Manager",
       "Executive"
@@ -130,7 +130,7 @@
   {
     "id": 11,
     "title": "Promotion Review Process",
-    "departement": "HR",
+    "department": "HR",
     "allowed_roles": [
       "Manager",
       "Executive"
@@ -142,7 +142,7 @@
   {
     "id": 12,
     "title": "Department Hiring Budget",
-    "departement": "Finance",
+    "department": "Finance",
     "allowed_roles": [
       "Manager",
       "Executive"
@@ -154,7 +154,7 @@
   {
     "id": 13,
     "title": "Manager Bonus Structure",
-    "departement": "Finance",
+    "department": "Finance",
     "allowed_roles": [
       "Manager",
       "Executive"
@@ -166,7 +166,7 @@
   {
     "id": 14,
     "title": "Engineering Team Performance Metrics",
-    "departement": "Engineering",
+    "department": "Engineering",
     "allowed_roles": [
       "Manager",
       "Executive"
@@ -178,7 +178,7 @@
   {
     "id": 15,
     "title": "Cross-Team Resource Allocation",
-    "departement": "Operations",
+    "department": "Operations",
     "allowed_roles": [
       "Manager",
       "Executive"
@@ -190,7 +190,7 @@
   {
     "id": 16,
     "title": "Confidential Acquisition Target Details",
-    "departement": "Finance",
+    "department": "Finance",
     "allowed_roles": [
       "Executive"
     ],
@@ -201,7 +201,7 @@
   {
     "id": 17,
     "title": "Executive Compensation Package",
-    "departement": "HR",
+    "department": "HR",
     "allowed_roles": [
       "Executive"
     ],
@@ -212,7 +212,7 @@
   {
     "id": 18,
     "title": "Strategic Audit Findings",
-    "departement": "Operations",
+    "department": "Operations",
     "allowed_roles": [
       "Executive"
     ],
@@ -223,7 +223,7 @@
   {
     "id": 19,
     "title": "Market Acquisition Valuation",
-    "departement": "Finance",
+    "department": "Finance",
     "allowed_roles": [
       "Executive"
     ],
@@ -234,7 +234,7 @@
   {
     "id": 20,
     "title": "CEO Compensation Review",
-    "departement": "HR",
+    "department": "HR",
     "allowed_roles": [
       "Executive"
     ],

@@ -20,7 +20,7 @@ Each object in the array must follow this exact schema:
 {
   "id":1,
   "title": "String",
-  "departement" : "HR" | "Finance" | "Engineering" | "Operations",
+  "department" : "HR" | "Finance" | "Engineering" | "Operations",
   "allowed_roles" : ["Employee", "Manager", "Executive"],
   "content" "2 to 3 sentences with specific figures and policies",
   "test_query": "A question answerable only with this content",
@@ -51,7 +51,7 @@ response = requests.post(
                                     "properties": {
                                         "id": {"type": "integer"},
                                         "title": {"type": "string"},
-                                        "departement": {
+                                        "department": {
                                             "type": "string",
                                             "enum": ["HR", "Finance", "Engineering", "Operations"],
                                         },
@@ -66,7 +66,7 @@ response = requests.post(
                                     "required": [
                                         "id",
                                         "title",
-                                        "departement",
+                                        "department",
                                         "allowed_roles",
                                         "content",
                                         "test_query",
