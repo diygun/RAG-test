@@ -42,11 +42,7 @@ def generate_answer(query_text: str, retrieved_docs: list[tuple]):
     for title, content in retrieved_docs:
         context_str += (f"\n --- Source: {title} ---\n {content}\n")
         
-    system_prompt = """ You are an entreprise AI assistant. Answer the user question strictly using the provided context below.
-    Always cite the document title in your answer.
-    If the information is not present in the contect, say you don't know.
-    Don't invent fact or answer. 
-    """
+    system_prompt = """ You are an entreprise AI assistant. Answer the user question strictly using the provided context below.Always cite the document title in your answer. If the information is not present in the context say you don't know."""
     
     user_prompt = (f"Context:\n {context_str}\n Question: {query_text}")
     
